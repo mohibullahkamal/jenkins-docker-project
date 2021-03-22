@@ -1,3 +1,12 @@
 node('master') {
 
+  stage('clean') {
+  }
+  
+  stage('build') {
+  }
+  
+  stage('compile') {
+  }
+
 }
