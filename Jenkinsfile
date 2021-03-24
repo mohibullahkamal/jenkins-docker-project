@@ -28,12 +28,11 @@ pipeline {
       when {
         branch 'main'
       }
-
       parallel {
         stage('Deploy') {
           steps {
             input(message: 'Do you want to deploy?', id: 'Yes')
-            echo 'Deploying the Application...'
+            echo 'Deploying the Dummy App...'
           }
         }
 
