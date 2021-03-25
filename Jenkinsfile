@@ -21,6 +21,12 @@ pipeline {
           }
         }
 
+        stage('Test Log2') {
+          steps {
+            echo 'This is second log...'
+          }
+        }
+
       }
     }
 
@@ -28,7 +34,6 @@ pipeline {
       when {
         branch 'main'
       }
-
       parallel {
         stage('Deploy') {
           steps {
