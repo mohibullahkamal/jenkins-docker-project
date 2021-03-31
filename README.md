@@ -1,3 +1,3 @@
-# jenkins_pipeline-docker-project
+# jenkins-pipeline-docker-project
 
 This repo is going to demonstrate Jenkins Pipeline.
