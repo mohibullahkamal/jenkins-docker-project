@@ -51,12 +51,6 @@ pipeline {
           }
         }
 
-        stage('Test log 7') {
-          steps {
-            echo 'This is test log 7'
-          }
-        }
-
       }
     }
 
