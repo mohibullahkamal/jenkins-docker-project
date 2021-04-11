@@ -33,12 +33,6 @@ pipeline {
           }
         }
 
-        stage('test 5 log') {
-          steps {
-            echo 'This is log from test 5'
-          }
-        }
-
       }
     }
 
