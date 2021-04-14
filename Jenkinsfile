@@ -27,12 +27,6 @@ pipeline {
           }
         }
 
-        stage('testing log 3') {
-          steps {
-            echo 'testing log 3 success'
-          }
-        }
-
       }
     }
 
