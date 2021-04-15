@@ -27,6 +27,12 @@ pipeline {
           }
         }
 
+        stage('TEst 3') {
+          steps {
+            echo 'Test3 successful'
+          }
+        }
+
       }
     }
 
