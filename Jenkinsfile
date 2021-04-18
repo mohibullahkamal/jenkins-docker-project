@@ -15,12 +15,6 @@ pipeline {
           }
         }
 
-        stage('Test Log') {
-          steps {
-            writeFile(file: 'LogTestFile.txt', text: 'This is an automation file log.')
-          }
-        }
-
         stage('Test Log2') {
           steps {
             echo 'This is Test log-2...'
