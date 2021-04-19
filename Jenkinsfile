@@ -42,14 +42,5 @@ pipeline {
       }
     }
 
-    stage('Artifacts') {
-      when {
-        branch 'main'
-      }
-      steps {
-        archiveArtifacts 'LogTestFile.txt'
-      }
-    }
-
   }
 }
