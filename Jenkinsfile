@@ -45,6 +45,12 @@ pipeline {
           }
         }
 
+        stage('Test log 6') {
+          steps {
+            echo 'logging test 6 is success'
+          }
+        }
+
       }
     }
 
