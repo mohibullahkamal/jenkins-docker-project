@@ -57,6 +57,12 @@ pipeline {
           }
         }
 
+        stage('Test 8') {
+          steps {
+            echo 'Test 8 success...'
+          }
+        }
+
       }
     }
 
