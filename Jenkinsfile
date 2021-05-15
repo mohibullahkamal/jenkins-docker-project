@@ -1,10 +1,7 @@
 pipeline {
   agent any
-  
   stages {
-    
     stage('Build') {
-      
       parallel {
         stage('Build') {
           steps {
@@ -35,13 +32,18 @@ pipeline {
             echo 'test log 4 success...'
           }
         }
-        
+
         stage('Test 5') {
           steps {
             echo 'mo testing 5 success...'
           }
         }
-          
+
+        stage('Test 6 ') {
+          steps {
+            echo 'Test 6 is a success...'
+          }
+        }
 
       }
     }
