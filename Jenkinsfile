@@ -33,12 +33,6 @@ pipeline {
           }
         }
 
-        stage('Test 5') {
-          steps {
-            echo 'test 5 successfull'
-          }
-        }
-
       }
     }
 
