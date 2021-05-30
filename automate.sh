@@ -1,6 +1,10 @@
 #! /bin/bash
 
 read -p "Enter how many times---> " COUNTER
+if ! [[ "$scale" =~ ^[0-9]+$ ]]
+    then
+        echo "Sorry integers only"
+fi
 
 until [ $COUNTER -le 0 ]; do
    echo TheCounterIs----> $COUNTER
