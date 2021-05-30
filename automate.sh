@@ -1,14 +1,12 @@
 #! /bin/bash
 
-read -p "Enter how many times---> " NUM
+read -p "Enter how many times---> " COUNTER
 
-if ! [[ "$NUM" =~ ^[0-9]+$ ]]
+if ! [[ "$COUNTER" =~ ^[0-9]+$ ]]
    then
       echo "Sorry integers only"
 
    else
-      COUNTER=$NUM
-      zero=0
       until [ "$COUNTER" -le "$zero" ]
       do
          echo "TheCounterIs---->  $COUNTER"
