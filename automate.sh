@@ -7,7 +7,7 @@ if ! [[ "$COUNTER" =~ ^[0-9]+$ ]]
       echo "Sorry integers only"
 
    else
-      until [ "$COUNTER" -le "$zero" ]
+      until [ "$COUNTER" -le 0 ]
       do
          echo "TheCounterIs---->  $COUNTER"
          if [ -e "1.txt" ] 
