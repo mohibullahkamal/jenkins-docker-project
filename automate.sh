@@ -24,4 +24,3 @@ until [ $COUNTER -le 0 ]; do
 
    let COUNTER-=1
 done
-
