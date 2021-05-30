@@ -1,8 +1,9 @@
 #! /bin/bash
 
-COUNTER=3
-until [ $COUNTER -lt 0 ]; do
-   echo COUNTER----> $COUNTER
+read -p "Enter how many times---> " COUNTER
+
+until [ $COUNTER -le 0 ]; do
+   echo TheCounterIs----> $COUNTER
 
 
    if [ -e "1.txt" ] 
