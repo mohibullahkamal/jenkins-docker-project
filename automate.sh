@@ -5,11 +5,11 @@ until [ $COUNTER -lt 0 ]; do
    echo COUNTER----> $COUNTER
 
 
-   if [$(ls *.txt) -eq 0 ] 
+   if [ -e "1.txt" ] 
    then
-      touch 1.txt 2.txt 3.txt
+      rm     1.txt
    else
-      rm    1.txt 2.txt 3.txt
+      touch  1.txt 
    fi
 
 	
