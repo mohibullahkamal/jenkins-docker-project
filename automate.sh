@@ -11,7 +11,8 @@
 
 
 COUNTER=1
-while [ $COUNTER -le 0 ]
+zero=0
+until [ "$COUNTER" -le "$zero" ]
 do
    echo "TheCounterIs---->  $COUNTER"
    if [ -e "1.txt" ] 
