@@ -45,11 +45,6 @@ pipeline {
           }
         }
 
-        stage('Test 7') {
-          steps {
-            echo 'test 7 success'
-          }
-        }
         
       }
     }
