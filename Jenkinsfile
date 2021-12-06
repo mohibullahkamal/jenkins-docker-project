@@ -44,18 +44,6 @@ pipeline {
             echo 'test 6 success'
           }
         }
-
-        stage('Test 6') {
-          steps {
-            echo 'test 6 success'
-          }
-        }
-        
-        stage('Test 6') {
-          steps {
-            echo 'test 6 success'
-          }
-        }
         
       }
     }
