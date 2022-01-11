@@ -69,24 +69,29 @@ pipeline {
           }
         }
         
-        stage('Test 10') {
+        stage('Test 11') {
           steps {
             echo 'test 10 success'
           }
         }
         
-        stage('Test 10') {
+        stage('Test 12') {
           steps {
             echo 'test 10 success'
           }
         }
         
-        stage('Test 10') {
+        stage('Test 13') {
           steps {
             echo 'test 10 success'
           }
         }
         
+        stage('Test 14') {
+          steps {
+            echo 'test 10 success'
+          }
+        }
         
         
         
