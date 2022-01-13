@@ -75,10 +75,6 @@ pipeline {
           }
         }
         
-        stage('Test 12') {
-       
-        
-        
         
         
         
