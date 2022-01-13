@@ -76,8 +76,7 @@ pipeline {
         }
         
         stage('Test 12') {
-          steps {
-
+       
         
         
         
