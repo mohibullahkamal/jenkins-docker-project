@@ -68,15 +68,9 @@ pipeline {
             echo 'test 10 success'
           }
         }
+
         
-        stage('Test 11') {
-          steps {
-            echo 'test 11 success'
-          }
-        }
-        
-        
-        
+               
         
         
       }
