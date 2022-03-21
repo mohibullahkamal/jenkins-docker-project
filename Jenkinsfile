@@ -3,6 +3,7 @@ pipeline {
   stages {
     stage('Build') {
       parallel {
+        
         stage('Build') {
           steps {
             echo 'Building the Application...'
@@ -75,6 +76,11 @@ pipeline {
           }
         }    
         
+        stage('Test') {
+          steps {
+            echo 'test success'
+          }
+        }    
         
         
         
