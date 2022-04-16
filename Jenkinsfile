@@ -57,12 +57,8 @@ pipeline {
             echo 'test success'
           }
         }
+   
         
-
-        
-
-
-
         
       }
     }
